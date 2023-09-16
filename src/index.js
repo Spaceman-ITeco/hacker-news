@@ -1,17 +1,39 @@
+//import React, {useState} from 'react';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {NewsItem} from "./NewsItem/NewsItem";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//const divElement = React.createElement('div', {className: 'text'}, 'hello frontend')
+//root.render(divElement);
+//root.render(<div className={'text'}>hello frontend div</div>);
+//root.render(<App/>);
+root.render(<>
+   {
+       <App/>
+       /* <NewsItem
+        title='First news'
+        url='www.example.com'
+        username='User'
+        date='11.09.2023'
+        score={10}/>
+    <NewsItem
+        title='Second news'
+        url='www.example.com'
+        username='User 2'
+        date='11.09.2023'
+        score={12}/>*/}
+</>);
+/*
+function App()
+{
+    const [state, setState] = useState(false)
+    return(
+        <div>
+            <p>Текущее состояние: {String (state)}</p>
+            <button onClick={()=>setState(!state)}>Переключить</button>
+        </div>
+    )
+}*/
