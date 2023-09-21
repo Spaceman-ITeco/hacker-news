@@ -17,6 +17,11 @@
     text-decoration: none;
 }
 
+.externalLink{
+    color: blue;
+    cursor: pointer;
+}
+
 .info {
     display: flex;
     justify-content: space-between;
@@ -49,3 +54,4 @@
     background-color: #deff89;
     color: #d0dc83;
 }
+
