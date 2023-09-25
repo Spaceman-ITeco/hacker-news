@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Spaceman-ITeco/hacker-news/static/css/main.78e101a6.css",
+    "main.js": "/Spaceman-ITeco/hacker-news/static/js/main.a8ab680a.js",
+    "index.html": "/Spaceman-ITeco/hacker-news/index.html",
+    "main.78e101a6.css.map": "/Spaceman-ITeco/hacker-news/static/css/main.78e101a6.css.map",
+    "main.a8ab680a.js.map": "/Spaceman-ITeco/hacker-news/static/js/main.a8ab680a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78e101a6.css",
+    "static/js/main.a8ab680a.js"
+  ]
+}
